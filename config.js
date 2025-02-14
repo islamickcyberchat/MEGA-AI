@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '01859551262';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '01859551262' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || '𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫';
+global.pairingNumber = process.env.BOT_NUMBER || '01859551262' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'mVRDSJoQ#YaaeeoSdUekCutO_h4eifYqoI1YEkdaxNuuVliLmg4U' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['01859551262', '01888794492']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
+global.packname = '𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫'
+global.author = 'CYBER-RAJIB'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
